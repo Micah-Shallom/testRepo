@@ -28,16 +28,13 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.nitpick]
-style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/0.16.1/styles/nitpick-style.toml"[tool.poetry]
-name = "wemake-django-template"
+style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/0.16.1/styles/nitpick-style.toml"
+
+[tool.poetry]
+name = "cyberme"
 description = "Bleeding edge django template focused on code quality and security"
 version = "0.1.0"
 readme = "README.md"
-authors = [
-  "Nikita Sobolev <mail@sobolevn.me>"
-]
-
-license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"
