@@ -1,5 +1,5 @@
 name: 'Auto Assign'
-on: 
+on:
   pull_request:
     types:  
       - opened
